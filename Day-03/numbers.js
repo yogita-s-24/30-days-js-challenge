@@ -10,3 +10,8 @@ if (num > 0) {
 } else {
   console.log(`This is zero.`);
 }
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 0aabe04f56490a4513cf724237888afea1f270f0
