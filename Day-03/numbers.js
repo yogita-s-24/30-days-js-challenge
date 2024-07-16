@@ -10,5 +10,3 @@ if (num > 0) {
 } else {
   console.log(`This is zero.`);
 }
-
-

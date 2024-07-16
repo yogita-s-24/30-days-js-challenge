@@ -24,9 +24,9 @@ function giveGrade(score) {
   }
   console.log(grade);
 }
-giveGrade(70) //Output - C
-giveGrade(80) //Output - B
-giveGrade("m") //Output - Invalid Score
-giveGrade(90) //Output - A
-giveGrade(60) //Output - D
-giveGrade(120) //Output - A
+giveGrade(70); //Output - C
+giveGrade(80); //Output - B
+giveGrade("m"); //Output - Invalid Score
+giveGrade(90); //Output - A
+giveGrade(60); //Output - D
+giveGrade(120); //Output - A
