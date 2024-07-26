@@ -1,0 +1,23 @@
+<!-- 1. Add a click event listener to a button that changes the text context of paragraph. -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Click Event</title>
+    <script>
+        function clickButton() {
+          document.getElementById("textParagraph").textContent =
+            "This is the new text!";
+        }
+      const element = document
+        .getElementById("changeTextButton")
+        .addEventListener("click",clickButton );
+    </script>
+  </head>
+  <body>
+    <button id="changeTextButton" onclick="clickButton()">Click Me</button>
+    <p id="textParagraph">This is original paragraph of the words.</p>
+  </body>
+</html>
